@@ -1,23 +1,49 @@
-<h1 align="center"> Lista de Exercícios printf e scanf </h1> 
+<h1 align="center"> Lista de Exercícios: Estruturas de Controle - Aninhamento de seletores (SWITCH) </h1> 
 
-1 - Escreva um programa que leia 3 notas, calcule a média simples e escreva na tela;
+1 - Em uma central de entregas, os pacotes são separados de acordo com o CEP de destino. Escreva um programa que leia do usuário o primeiro dígito do CEP de destino e informe para qual região ele deve ser enviado, de acordo com a tabela abaixo:
 
-2 - Escreva um programa que leia 4 notas: a primeira com peso 1, a segunda com peso 2, a terceira com peso 3, a quarta com peso 4. Leia as 4 notas e cacule a média e escreva na tela.
-Media = (N1*1+N2*2+N3*3+N4*4)/(1+2+3+4) 
+Primeiro Dígito do CEP	Enviar para: 
+0, 1, 2, 3	Sudeste (SP, RJ, ES, MG)
+4	Região 4 (BA, SE)
+5	Região 5 (PE, AL, PB, RN)
+6	Região 6 (CE, PI, MA, PA, AP, AM, RR, AC )
+7	Região 7 (DF, GO, TO, MT, RO, MS)
+8 ou 9 	Sul (PR, SC, RS)
+Ex: se o código digitado for 5, o programa deve imprimir em tela: "Enviar para: Região 5 (PE, AL, PB, RN)"
+saiba mais em: https://www.correios.com.br/enviar-e-receber/ferramentas/cep/estrutura-do-cep
 
-3 - Escreva um programa que leia 4 notas e o peso de cada avaliação. Calcule a média e escreva na tela.
-Media = (N1*P1+N2*P2+N3*P3+N4*P4)/(P1+P2+P3+P4)  
+2 - Calculadora: Ler a operação de acordo com o código abaixo, depois Ler dois números e imprimir o resultado.
 
-4 - Considerando que o aumento dos funcionários é de 75% do INPC e mais um percentual de produtividade discutido com a empresa. Construir um programa que lê o número do funcionário, seu salário atual, o valor do INPC e o índice de produtividade e escreve o número do funcionário, seu aumento e o valor de seu novo salário.
-Aumento=Salario*0.75*INPC/100  +Salario*IndiceProdutividade/100
-Salario Novo = Salario + Aumento 
+código
+(símbolo)	Operação
++	soma
+-	subtração
+/	divisão
+*	multiplicação
+Dica: use '+', '-', '/', '*'
+Exemplo:
+Digite a operação: +
+Digite o primeiro Numero: 2
+Digite o segundo Número: 3
+Resultado: 5
 
-5 - Escreva um programa que lê dois numeros e imprima o resultado da soma dos dois numeros.
+3 - O cardápio de uma lancheria é o seguinte:
 
-6 - Escreva um programa que lê três numeros e imprima o resultado da multiplicação. 
+Código	Especificação	Preço Unitário
+100	Cachorro Quente	R$10,00
+101	Bauru Simples	R$13,00
+102	Bauru c/ ovo	R$16,00
+103	Hambuguer	R$14,00
+104	Cheeseburguer	R$16,00
+105	Refrigerante	R$4,00
+Escrever um programa que leia o código do item pedido, a quantidade e calcule o valor a ser pago por aquele pedido. Considere que a cada execução somente será calculado um item.
 
-7 - A Joalheria Silva está fazendo aniversário e resolveu premiar o primeiro cliente do dia devolvendo a ele o valor da compra em dobro. Faça um programa que leia o preço unitário do produto adquirido pelo cliente, a quantidade e calcule o total gasto pelo cliente. Mostre o total e calcule o prêmio. Mostre o valor do prêmio (total da compra multiplicado por 2)
+4 - Leia o salário atual do funcionário e código da função. De acordo com a tabela abaixo, indique o novo salário.
 
-8 -  Desenvolva um programa que faça a conversão de um valor lido em reais para um valor em dólares. O usuário deve informar a quantidade em reais e a cotação do dólar no dia.
-
-9 -  Desenvolva um programa que faça a conversão de um valor lido em dólares para um valor em reias. O usuário deve informar a quantidade em dólares e a cotação do dólar no dia.
+Código	Cargo	Aumento
+1	Escriturário	30%
+2	Secretário	25%
+3	Caixa	20%
+4	Gerente	10%
+5	Diretor	0
+Indique uma mensagem de erro se o código não existir.

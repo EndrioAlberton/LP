@@ -1,8 +1,5 @@
 <h1 align="center"> Lista de Exercícios: Estruturas de Controle - Aninhamento de seletores (SWITCH) </h1> 
 
-<h2 align="center"> Nota prova 9.8 (Questão 1 - inicializou o acumulador para a soma da linha com 1;) </h2> 
-
-
 Prova de Linguagem de Programação I - Fabio Okuyama 01/12/2023
 Após o envio final, baixe o arquivo e verifique se são os arquivos corretos
 Nota: os Programas devem conter comentários e o nome do autor.
